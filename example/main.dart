@@ -44,6 +44,7 @@ class _AppState extends State<App> {
           debugPrint("onSubmitted value: " + value);
         },
         textInputAction: TextInputAction.search,
+        onChanged: (String) {},
       ),
     );
   }
